@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>randomjokes</title>
+  </head>
+  <body class="bg-[#f4f4f4] flex items-center justify-center h-screen">
+    <main
+      class="flex flex-col bg-white px-6 py-5 shadow-md w-[40%] justify-center items-center my-4 gap-4"
+    >
+      <div id="title" class="font-bold">
+        <h1>Random Joke Generator</h1>
+      </div>
+      <div id="joke-generated" class="py-3 px-3">
+        <p
+          class="rounded-sm py-3 px-3 shadow-gray-400 border-gray-500 border-2"
+          id="joke-text"
+        ></p>
+      </div>
+      <button
+        id="getjokebtn"
+        class="bg-green-600 text-white py-2 px-3 rounded-sm"
+      >
+        Get Joke
+      </button>
+    </main>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
